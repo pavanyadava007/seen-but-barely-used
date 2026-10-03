@@ -15,6 +15,20 @@
 
 ---
 
+## 🎬 The whole study in under two minutes
+
+<p align="center">
+  <img src="docs/img/explainer.gif" width="90%" alt="Animated explainer: from camera images to the planned path, and what we found">
+</p>
+
+<p align="center">
+  <b><a href="docs/video/explainer.mp4">▶ Watch the full-quality video (MP4, 1 min 48 s)</a></b><br>
+  <em>13 short scenes: the problem, how the model works, a real scene, the six findings with their real numbers, and
+  the takeaway. Regenerate it with <code>python docs/video/make_video.py</code>.</em>
+</p>
+
+---
+
 ## Contents
 
 1. [The short version](#1-the-short-version)
@@ -270,7 +284,9 @@ seen-but-barely-used/
 │   ├── review_analyses.py, concept_planner.py, navsim_groups_ci.py, sae_seed_*.py   extra analyses
 │   ├── *.json                 small result summaries used by the paper
 │   └── paper.pdf              the compiled paper
-└── docs/img/                  figures rendered for this README
+└── docs/
+    ├── img/                   figures and the animated explainer (GIF) for this README
+    └── video/                 explainer video (MP4) and make_video.py that builds it from the paper's numbers
 ```
 
 ---
