@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: sdxai_navtest38_mask_peds
+
+data_split: test

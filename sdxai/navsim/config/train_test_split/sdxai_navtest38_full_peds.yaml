@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: sdxai_navtest38_full_peds
+
+data_split: test

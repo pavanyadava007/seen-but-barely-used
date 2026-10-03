@@ -1,0 +1,20 @@
+TITLE
+Seen but Barely Used: Concept-Level Interpretability of Pedestrian Perception in a Sparse End-to-End Driving Model
+
+AUTHORS
+Pavan Yadav Annappa
+
+ABSTRACT (plain text for the arXiv form)
+Planning and closed-loop scores do not show whether an end-to-end driving model perceives pedestrians, what it encodes about them, or whether its plan depends on them. We open the object queries of SparseDrive, a sparse query-based end-to-end model, and trace pedestrians from image evidence to the planner on nuScenes, NAVSIM and Bench2Drive/CARLA. The pedestrian class is a nearly orthogonal direction in query space; a sparse autoencoder spreads it over about 20 units whose subspace, but not whose individual units, recurs across training seeds. Walking towards the ego path or standing on a zebra crossing is linearly encoded beyond geometric confounds, yet such pedestrians receive no more planner attention than others. Occlusion lowers the pedestrian logit at matched distance and size, occluded pedestrians are recovered through the query memory, and newly appearing pedestrians are rarely detected (first-sighting recall 0.11 occluded, 0.22 visible). Planner attention ranks the agents whose removal moves the plan (rank-AUC 0.90), but removing a pedestrian from attention and collision rescoring moves the plan by centimetres, and attention masking moves it less than for a matched car. Removing all detected pedestrians from attention, rescoring and planner memory in every frame changes the plan about a sixth as much as removing all vehicles; on NAVSIM this removal leaves the driving score unchanged for pedestrians (EPDMS +0.001) but lowers it for vehicles (-0.023). The pipeline uses only public code and data, and we discuss the implications for safety argumentation.
+
+PRIMARY CATEGORY
+cs.CV (Computer Vision and Pattern Recognition)
+
+CROSS-LISTS
+cs.RO (Robotics), cs.LG (Machine Learning)
+
+COMMENTS
+Code: https://github.com/pavanyadava007/seen-but-barely-used . 11 pages, 8 figures, 11 tables. Public-only pipeline (nuScenes, NAVSIM/OpenScene, Bench2Drive/CARLA).
+
+LICENSE
+CC BY-NC-SA 4.0 (matches the nuScenes image licence of the figures) or the arXiv default licence

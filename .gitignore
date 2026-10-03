@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.pkl
+*.parquet
+work_dirs/
+data/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+arxiv/
+arxiv_source.tar.gz

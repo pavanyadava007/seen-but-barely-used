@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: sdxai_smoke
+
+data_split: mini

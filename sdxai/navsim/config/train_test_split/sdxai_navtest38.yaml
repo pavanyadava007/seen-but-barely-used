@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: sdxai_navtest38
+
+data_split: test

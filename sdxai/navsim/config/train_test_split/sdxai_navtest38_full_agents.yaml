@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: sdxai_navtest38_full_agents
+
+data_split: test

@@ -1,0 +1,23 @@
+_target_: navsim.common.dataclasses.SceneFilter
+_convert_: 'all'
+
+num_history_frames: 4
+num_future_frames: 10
+frame_interval: 1
+has_route: true
+
+max_scenes: null
+log_names:
+  - '2021.06.08.12.54.54_veh-26_04262_04732'
+  - '2021.07.24.20.37.45_veh-17_00015_00375'
+tokens:
+  - '19de57bdeb3052a4'
+  - '1bf100f880f558d6'
+  - '307f5f9b4eeb517e'
+  - '32cdbb04af4856c0'
+  - '494fade53c845a1b'
+  - '912445777d8c592b'
+  - 'a1440abecb1e5bb7'
+  - 'cebac405bc31584f'
+  - 'e579b642c3845df8'
+  - 'ec5e6f2f4d565c4c'
